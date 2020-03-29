@@ -1,5 +1,5 @@
 import React from 'react';
-import About from './about';
+import Link from 'next/link';
 
 /*const Index = () => {
   return (
@@ -38,11 +38,21 @@ class Index extends React.Component {
     return (
       <React.Fragment>
         <ul>
-          <a href='/'>Home</a>
-          <a href='/about'>About</a>
-          <a href='/cv'>Cv</a>
-          <a href='/hobbies'>Hobbies</a>
-          <a href='/blog'>Blog</a>
+          <Link href='/'>
+            <a>Home</a>
+          </Link>
+          <Link href='/about'>
+            <a>About</a>
+          </Link>
+          <Link href='/cv'>
+            <a>Cv</a>
+          </Link>
+          <Link href='/hobbies'>
+            <a>Hobbies</a>
+          </Link>
+          <Link href='/blog'>
+            <a>Blog</a>
+          </Link>
         </ul>
       </React.Fragment>
     );

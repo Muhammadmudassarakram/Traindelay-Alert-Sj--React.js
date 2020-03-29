@@ -941,7 +941,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\muham\\Desktop\\Data Interaction\\Next-js\\hello-next\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\muham\\Desktop\\Data Interaction\\Next-js\\mudassar-portfolio\\.next");
       return error;
     }
   };
