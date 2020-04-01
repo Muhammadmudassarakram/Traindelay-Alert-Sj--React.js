@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+import Header from '../components/shared/Header';
 
 /*const Index = () => {
   return (
@@ -37,23 +37,7 @@ class Index extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <ul>
-          <Link href='/'>
-            <a>Home</a>
-          </Link>
-          <Link href='/about'>
-            <a>About</a>
-          </Link>
-          <Link href='/cv'>
-            <a>Cv</a>
-          </Link>
-          <Link href='/hobbies'>
-            <a>Hobbies</a>
-          </Link>
-          <Link href='/blog'>
-            <a>Blog</a>
-          </Link>
-        </ul>
+        <Header />
       </React.Fragment>
     );
   }
